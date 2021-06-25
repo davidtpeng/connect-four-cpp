@@ -1,10 +1,10 @@
 # Connect Four 
 
-Image of Game: https://imgur.com/a/2wFaGHI
+![Image](https://github.com/davidtpeng/connect-four-cpp/blob/master/connect_four_gui.png?raw=true)
 
-This project allows the user to play Connect Four against a simple fully connected neural network using [alpha-beta search](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). Simply click the screen to make a move and the computer opponent will automatically start thinking.
+This project allows the user to play Connect Four against a simple fully connected neural network using [alpha-beta search](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). Simply click the screen to make a move and the computer opponent will automatically start to think.
 
-Note: Setting a higher depth will result in a stronger computer, but will cause it to move slower.
+Note: Setting a higher depth will result in a stronger opponent, but will cause it to move slower.
 
 ## Dependencies 
 * [Visual Studio 2015+](https://visualstudio.microsoft.com/)
@@ -20,7 +20,7 @@ Note: Setting a higher depth will result in a stronger computer, but will cause 
 4) Edit the CMakeLists.txt include_directories statement as necessary
 5) Run the executables train-model (to train a model) and connect-four-simulator (to play against the model) in CLion or any other IDE
 
-A similar process can be followed for other platforms, but has not been tested.
+A similar process can be followed for other platforms, but has not yet been tested.
 
 ## Data
 Two net binaries are provided in this project, net and net_2. net_2 is the stronger and default network that is loaded in the connect four executable.
